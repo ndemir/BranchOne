@@ -1,0 +1,17 @@
+{
+  "epochs": 1,
+  "effective_batch": 16,
+  "seed": 42,
+  "max_length": 8192,
+  "image_tokens": 256,
+  "lora_rank": 8,
+  "max_candidate_rows": 32,
+  "candidate_token_budget": 65536,
+  "graph_token_budget": 16384,
+  "shared_prefix_min_tokens": null,
+  "initial_loss_scale": 16777216.0,
+  "save_every_updates": 100,
+  "save_every_seconds": 900,
+  "evaluate_every_epoch_fraction": 0.25,
+  "max_work_seconds": 14400
+}
